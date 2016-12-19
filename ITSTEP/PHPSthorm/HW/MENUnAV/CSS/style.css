@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+header.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    background: url("../img/header.jpg");
+}
+
+header.main .logo {
+    display: inline-block;
+    padding: 0 8px;
+
+    font: 30px monospace;
+    line-height: 50px;
+    color: #4b4b4b;
+}
+
+header.main nav.menu {
+    float: right;
+}
+
+header.main nav.menu ul li {
+    display: block;
+    float: left;
+
+}
+
+header.main nav.menu ul li a {
+    display: inline-block;
+    padding: 0 10px;
+
+    color: #5a5a5a;
+    font: 18px monospace;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition: all 200ms;
+}
+header.main nav.menu ul li a:hover {
+    background-color: #bebdbd;
+}
+
+header.main nav.menu ul ul {
+    display: none;
+    position: absolute;
+
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+header.main nav.menu ul li:hover ul {
+    display: block;
+}
+header.main nav.menu ul ul li {
+    display: block;
+    float: none;
+}
+header.main nav.menu ul ul ul.submenu {
+    display: none;
+
+    position: absolute;
+    left: 100%;
+    top: 8%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+}
+header.main nav.menu ul ul li:hover ul.submenu {
+    display: block;
+}
+header.main nav.menu ul ul ul ul.subsubmenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 8%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+}
+header.main nav.menu ul ul ul li:hover ul.subsubmenu {
+    display: block;
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: darkblue;
+}
+.back{
+    width:800px;
+    height: 400px;
+    background: linear-gradient(to top, #606261, #c6c3c5);
+}
+.one, .two, .three{
+    width: 200px;
+    height: 300px;
+    background-color: white ;
+    display: inline-block;
+    margin: 50px 30px;
+    position: relative;
+    border: 2px solid rgb(255, 95, 49);
+    border-radius: 8px;
+}
+.head {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 78, 45);
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+.price{
+    width: 200px;
+    height: 125px;
+    text-align: center;
+    position: absolute;
+    top: 75px;
+    font-size: 27px;
+
+}
+.little{
+    font-size: 12px;
+}
+.discription{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+}
+.buy{
+    position: absolute;
+    top: 225px;
+}
+.buy:hover{
+    position: absolute;
+    top:223px;
+}
+.one:hover, .two:hover, .three:hover{
+    border: 2px double #eae6e5;
+
+}

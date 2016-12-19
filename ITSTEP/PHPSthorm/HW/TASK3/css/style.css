@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.redtext{
+    color: red;
+}
+
+.main{
+    display: block;
+    width: 100%;
+    max-width: 896px;
+    height: 625px;
+    background-color: white;
+    box-shadow: -2px 4px 40px -6px rgba(0,0,0,0.75);;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.one{
+    float: right;
+    margin-right:200px;
+    font-size: 18px;
+    position: relative;
+}
+#name1{
+    width: 450px;
+    margin-left: 8px;
+    margin-top: 30px;
+    line-height: 25px;
+    border: 1px solid #ffd61d;
+    border-radius: 7px;
+    text-indent: 10px;
+
+}
+#name2{
+    width: 450px;
+    margin-left: 8px;
+    margin-top: 12px;
+    line-height: 25px;
+    border: 1px solid #ffd61d;
+    border-radius: 7px;
+    text-indent: 10px;
+}
+#name3{
+    width: 450px;
+    margin-left: 8px;
+    margin-top: 20px;
+    line-height: 25px;
+    border: 1px solid #ffd61d;
+    border-radius: 7px;
+    text-indent: 10px;
+}
+.birthday{
+    margin-top: 12px;
+    line-height: 25px;
+    margin-left: 8px;
+    width: 140px;
+    border: 1px solid #ffd61d;
+    border-radius: 7px;
+    text-indent: 10px;
+}
+.ter{
+    float: left;
+    margin-left:30px;
+    font-size: 18px;
+    margin-top: 12px;
+    position: relative;
+}
+.select{
+    margin-top: 20px;
+    border: 1px solid green;
+    text-align: right;
+    padding-right: 2px;
+    display: inline-block;
+    width: 150px;
+
+}
+.block{
+    display: block;
+    margin-right: 652px;
+    float: right;
+}
+.SELE {
+    width: 450px;
+    margin-left: 8px;
+    margin-top: 12px;
+    line-height: 25px;
+    border: 1px solid #ffd61d;
+    border-radius: 7px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.cent{
+    margin-left: 246px;
+    float: left;
+    margin-top: 15px;
+    display: block;
+}
+.send{
+    margin-top: 15px;
+    width: 625px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+#name1:focus, #name2:focus, #name3:focus, .birthday:focus, .SELE:focus{
+    box-shadow: 0 0 8px blue;
+    border: 1px solid blue;
+    outline: none;
+}
+#name1:hover, #name2:hover, #name3:hover, .birthday:hover, .SELE:hover{
+    box-shadow: 0 0 8px #3a3b3a;
+}
+
+.required{
+    float: right;
+    margin-right:200px;
+    font-size: 16px;
+    position: relative;
+    width: 450px;
+    margin-left: 8px;
+    margin-top: 12px;
+    line-height: 25px;
+    border-bottom: 1px solid red;
+    text-indent: 10px;
+    color: red;
+    text-align: center;
+}
+.main #name2:focus div.required{
+    border-bottom: 1px solid #496bff; !important;
+    color: #496bff; !important;
+}

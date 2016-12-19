@@ -1,0 +1,51 @@
+	#quote {
+    	font-style: italic;
+			}
+	a {
+		"text-transform: uppercase;"color:blue;
+			}
+	code {
+		"background-color: #f9f9f9;border: 1px solid #ddd;border-radius: 2px;1px 4px;".
+	}
+#vas {
+	text-decoration: underline;
+	color:blue;
+}
+ #kras {
+	color: red
+
+}
+#yel {
+	background-color: yellow
+}
+
+#mik{
+	color: blue;
+	font-size:30px;
+	text-decoration: underline;
+}
+
+ h1, #dva {
+    font-size: 20px; 
+   }
+ span.perv{
+ 	color:#CD853F;
+ 	font-size:35px;
+ }
+span.vtor{
+	font-size:30px;
+
+}
+span.tret{
+	color:#DEB887;
+	font-size:25px;
+}
+span.primer {
+	color:#458B00;
+	text-decoration:underline;
+}
+
+span{
+	font-weight: bold;
+	display: block
+}
